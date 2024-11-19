@@ -1,0 +1,54 @@
+# Kitty Config with JetBrains Nerd Font
+
+# Set font to JetBrains Mono Nerd Font
+font_family      JetBrainsMono Nerd Font
+#font_family      Monocraft Nerd Font
+font_size        14.0
+
+# Enable ligatures (for JetBrains Mono)
+enable_ligatures true
+
+# Background and foreground colors
+background       #1e1e2e
+background       #000000
+foreground       #cdd6f4
+
+# Cursor customization
+cursor           #f38ba8
+cursor_shape     block
+
+# Window title customization
+window_title_format  "{title} - Kitty"
+
+# Padding (in pixels)
+padding_width    5
+
+# Scrollback buffer (set to 10000 lines)
+scrollback_lines 10000
+
+# Mouse behavior
+enable_mouse_reporting true
+detect_urls true
+
+# Bell configuration
+enable_audio_bell false
+enable_visual_bell true
+visual_bell_color #fab387
+
+# Tabs
+enabled_layouts   tall,stack,grid
+active_tab_background #fab387
+inactive_tab_background #45475a
+tab_bar_edge #f38ba8
+
+# Clipboard integration
+clipboard_control copy, paste
+
+# Keybindings (sample)
+map ctrl+shift+t new_tab
+map ctrl+shift+w close_window
+
+# Kitty transparency (optional)
+# Kitty configuration for blurry background
+background_opacity 0.5
+
